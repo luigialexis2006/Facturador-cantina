@@ -12,6 +12,6 @@ const productosRouter = require('./routes/productos');
 app.use('/api/mesas', mesasRouter);
 app.use('/api/productos', productosRouter);
 
-const PORT = 3000;
+const PORT = 5000;
 
 app.listen(PORT, () => console.log('Backend escuchando en http://localhost:${PORT}'))
